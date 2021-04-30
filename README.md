@@ -1,14 +1,14 @@
 # SQL Joins
 
+## Learning Goals
+
+- Describe how SQL join clauses combine data from multiple tables based on a common column between them
+- Define the different types of SQL joins: inner, outer, left outer, right outer
+- Practice writing join statements
+
 ## Overview
 
 We'll discuss how to retrieve specific sets of data from associated tables using SQL join statements. 
-
-## Objectives
-
-1. Describe how SQL join clauses combine data from multiple tables based on a common column between them
-2. Define the different types of SQL joins: inner, outer, left outer, right outer
-3. Practice writing join statements
 
 ## What Is a JOIN?
 
