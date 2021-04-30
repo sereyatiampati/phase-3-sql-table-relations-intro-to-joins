@@ -44,7 +44,7 @@ There are several different types of joins that we will cover in this lesson. Th
     <td>Returns all rows from the right table, and the matched rows from the left table</td>
   </tr>
   <tr>
-    <td>FULL JOIN*</td>
+    <td>FULL [OUTER] JOIN*</td>
     <td>Returns all rows when there is a match in ONE of the tables</td>
   </tr>
 </table>
