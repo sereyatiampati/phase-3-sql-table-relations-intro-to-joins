@@ -33,7 +33,7 @@ There are several different types of joins that we will cover in this lesson. Th
 | RIGHT JOIN* | Returns all rows from the right table, and the matched rows from the left table |
 | FULL [OUTER] JOIN* | Returns all rows when there is a match in ONE of the tables |
 
-`* Not supported by SQLite`
+* Not supported by SQLite
 
 **Note:** Unfortunately, SQLite does not support the RIGHT JOIN or the FULL OUTER JOIN clauses. However, you can [emulate](http://www.sqlitetutorial.net/sqlite-full-outer-join/) the FULL OUTER JOIN by using the LEFT JOIN clause.
 
@@ -226,7 +226,7 @@ ON Cats.owner_id = Owners.id;
 
 You should see the following output returned to you:
 
-```
+```bash
 name             breed            name      
 ---------------  ---------------  ----------
 Maru             Scottish Fold    mugumogu  
@@ -275,7 +275,7 @@ ON Cats.owner_id = Owners.id;
 
 This would return:
 
-```
+```bash
 name             breed            name      
 ---------------  ---------------  ----------
 Maru             Scottish Fold    mugumogu  
@@ -326,5 +326,3 @@ Our result includes both cats without owners and owners without cats. In other w
 
 ## Resources
 * [SQLite FULL OUTER JOIN Emulation](http://www.sqlitetutorial.net/sqlite-full-outer-join/)
-
-
