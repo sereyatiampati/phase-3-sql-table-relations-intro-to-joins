@@ -312,7 +312,7 @@ ON Cats.owner_id = Owners.id;
 
 It would return:
 
-```
+```sql
 name             breed            name      
 ---------------  ---------------  ----------
 Maru             Scottish Fold    mugumogu  
