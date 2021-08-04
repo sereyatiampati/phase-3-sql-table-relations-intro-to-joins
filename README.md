@@ -26,28 +26,12 @@ This would return us the appropriate list of cats. But what if we wanted to quer
 
 There are several different types of joins that we will cover in this lesson. The following JOIN keywords will be crafted into `SELECT` statements to achieve the described return values.  
 
-<table border="1" cellpadding="4" cellspacing="0">
-  <tr>
-    <th>Type</th>
-    <th>Description</th>
-  </tr>
-  <tr>
-    <td>INNER JOIN</td>
-    <td>Returns all rows when there is at least one match in BOTH tables</td>
-  </tr>
-  <tr>
-    <td>LEFT [OUTER] JOIN</td>
-    <td>Returns all rows from the left table, and the matched rows from the right table</td>
-  </tr>
-  <tr>
-    <td>RIGHT JOIN*</td>
-    <td>Returns all rows from the right table, and the matched rows from the left table</td>
-  </tr>
-  <tr>
-    <td>FULL [OUTER] JOIN*</td>
-    <td>Returns all rows when there is a match in ONE of the tables</td>
-  </tr>
-</table>
+| Type | Description |
+| --- | --- |
+| INNER JOIN | Returns all rows when there is at least one match in BOTH tables |
+| LEFT [OUTER] JOIN | Returns all rows from the left table, and the matched rows from the right table |
+| RIGHT JOIN* | Returns all rows from the right table, and the matched rows from the left table |
+| FULL [OUTER] JOIN* | Returns all rows when there is a match in ONE of the tables |
 
 `* Not supported by SQLite`
 
